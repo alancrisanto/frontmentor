@@ -103,8 +103,9 @@ img {
 		background-image: url(./images/pattern-background-desktop.svg);
 	}
 	.card {
-		margin: 2rem auto;
+		margin: 2.5rem auto;
 		max-width: 400px;
+		transform: scale(0.9);
 	}
 
 	.content,
