@@ -72,3 +72,29 @@ img {
 	color: hsl(224, 23%, 55%);
 	font-family: none;
 }
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	font-family: "Righteous", cursive;
+	margin-bottom: 1rem;
+}
+
+.buttons a {
+	text-decoration: none;
+}
+
+.buttons a:nth-child(1) {
+	color: white;
+	font-weight: 500;
+	background-color: hsl(245, 75%, 52%);
+	padding: 0.8rem 1.3rem;
+	border-radius: 15px;
+	margin-bottom: 1.3rem;
+	box-shadow: hsl(240, 83%, 65%) 0 10px 20px -10px;
+}
+
+.buttons a:nth-child(2) {
+	color: hsl(224, 23%, 55%);
+}
