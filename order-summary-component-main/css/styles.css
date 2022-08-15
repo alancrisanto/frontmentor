@@ -46,7 +46,8 @@ img {
 .payments {
 	display: flex;
 	flex: 1;
-	justify-content: space-evenly;
+	/* justify-content: space-evenly; */
+	justify-content: space-between;
 	align-items: center;
 	font-size: 0.9rem;
 	margin: 0.5rem 1.3rem;
@@ -56,9 +57,17 @@ img {
 	font-weight: 900;
 }
 
-.plan {
-	margin-right: 1.3rem;
+.payments a {
+	font-size: 0.8rem;
 }
+.icon-plan {
+	display: flex;
+}
+
+.plan {
+	margin: 0 1rem;
+}
+
 .plan p:nth-child(1) {
 	color: hsl(223, 47%, 23%);
 	margin-bottom: 0.5rem;
@@ -128,5 +137,6 @@ img {
 	.payments {
 		margin-right: 2rem;
 		margin-left: 2rem;
+		padding: 1rem 1.5rem;
 	}
 }
