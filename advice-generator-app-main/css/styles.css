@@ -17,14 +17,6 @@
 	--Dark-Blue: hsl(218, 23%, 16%);
 }
 
-.attribution {
-	font-size: 11px;
-	text-align: center;
-}
-.attribution a {
-	color: hsl(228, 45%, 44%);
-}
-
 img {
 	max-width: 100%;
 }
@@ -88,6 +80,22 @@ body {
 
 .card-footer button:hover {
 	box-shadow: 0 0 2rem var(--Neon-Green);
+}
+
+.attribution {
+	color: white;
+	padding: 2rem;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.attribution a {
+	color: var(--Neon-Green);
+	text-decoration: none;
+}
+
+.attribution a:hover {
+	color: hsl(60, 96%, 53%);
 }
 
 @media screen and (min-width: 32em) {
