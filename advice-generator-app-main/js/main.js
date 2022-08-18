@@ -14,4 +14,6 @@ const getAdvices = async () => {
 
 getAdvices();
 
-const btnDice = document.querySelector("btn-dice");
+const btnDice = document.querySelector(".btn-dice");
+
+btnDice.addEventListener("click", getAdvices);
