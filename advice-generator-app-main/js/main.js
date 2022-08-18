@@ -13,3 +13,5 @@ const getAdvices = async () => {
 };
 
 getAdvices();
+
+const btnDice = document.querySelector("btn-dice");
