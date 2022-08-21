@@ -1,14 +1,18 @@
 const URL = "https://api.adviceslip.com/advice";
 
 const getAdvices = async () => {
-	const response = await fetch(URL);
-	const data = await response.json();
+	try {
+		const response = await fetch(URL, { cache: "no-cache" });
+		const data = await response.json();
 
-	let adviceID = document.querySelector(".advice-id");
-	let adviceText = document.querySelector(".advice-text");
+		let adviceID = document.querySelector(".advice-id");
+		let adviceText = document.querySelector(".advice-text");
 
-	adviceID.textContent = data.slip.id;
-	adviceText.textContent = data.slip.advice;
+		adviceID.textContent = data.slip.id;
+		adviceText.textContent = data.slip.advice;
+	} catch (error) {
+		console.error(error);
+	}
 };
 
 getAdvices();
