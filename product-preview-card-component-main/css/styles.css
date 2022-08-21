@@ -27,7 +27,8 @@ image {
 	overflow: hidden;
 }
 
-.card-body {
+.card-body,
+.card-footer {
 	padding: 0 1.5rem 0 1.5rem;
 }
 
@@ -41,7 +42,6 @@ image {
 }
 
 .card-title {
-	font-family: var(--fontPrimary);
 	font-size: 2rem;
 	line-height: 2rem;
 	color: var(--VeryDarkBlue);
@@ -54,6 +54,43 @@ image {
 	margin-top: 1rem;
 	line-height: 1.43rem;
 	letter-spacing: 0.2px;
+}
+
+.card-price {
+	display: flex;
+	align-items: center;
+	margin-top: 1.3rem;
+}
+
+.price-now {
+	font-size: 2rem;
+	margin-right: 1.2rem;
+	color: var(--DarkCyan);
+}
+
+.price-before {
+	font-family: var(--fontSecundary);
+	font-weight: 500;
+	font-size: 0.8rem;
+	color: var(--DarkGrayishBlue);
+	text-decoration: line-through;
+}
+
+.card-btn {
+	color: var(--White);
+	background-color: var(--DarkCyan);
+	border: none;
+	padding: 0.9rem;
+	margin-top: 1rem;
+	border-radius: 10px;
+	width: 100%;
+	font-family: var(--fontSecundary);
+	font-weight: 700;
+	font-size: 0.9rem;
+}
+
+.card-btn img {
+	padding-right: 0.5rem;
 }
 
 .attribution {
