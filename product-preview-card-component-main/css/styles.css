@@ -15,6 +15,10 @@
 	font-family: var(--fontPrimary);
 }
 
+body {
+	background-color: var(--Cream);
+}
+
 image {
 	max-width: 100%;
 }
@@ -30,6 +34,7 @@ image {
 .card-body,
 .card-footer {
 	padding: 0 1.5rem 0 1.5rem;
+	background-color: var(--White);
 }
 
 .card-head {
@@ -81,7 +86,7 @@ image {
 	background-color: var(--DarkCyan);
 	border: none;
 	padding: 0.9rem;
-	margin-top: 1rem;
+	margin: 1rem 0 1.3rem 0;
 	border-radius: 10px;
 	width: 100%;
 	font-family: var(--fontSecundary);
@@ -94,8 +99,9 @@ image {
 }
 
 .attribution {
-	font-size: 11px;
+	font-size: 13px;
 	text-align: center;
+	padding: 1rem;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
