@@ -27,6 +27,35 @@ image {
 	overflow: hidden;
 }
 
+.card-body {
+	padding: 0 1.5rem 0 1.5rem;
+}
+
+.card-head {
+	font-family: var(--fontSecundary);
+	color: var(--DarkGrayishBlue);
+	margin: 1.55rem 0 0.9rem 0;
+	font-weight: 500;
+	letter-spacing: 0.38rem;
+	/* margin-left: 1.5rem; */
+}
+
+.card-title {
+	font-family: var(--fontPrimary);
+	font-size: 2rem;
+	line-height: 2rem;
+	color: var(--VeryDarkBlue);
+}
+
+.card-body p {
+	font-family: var(--fontSecundary);
+	font-size: 0.85rem;
+	color: var(--DarkGrayishBlue);
+	margin-top: 1rem;
+	line-height: 1.43rem;
+	letter-spacing: 0.2px;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
