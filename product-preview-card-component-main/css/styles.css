@@ -31,8 +31,10 @@ image {
 	overflow: hidden;
 }
 
-.card-body,
-.card-footer {
+/* .card-body {
+	background-color: var(--White);
+} */
+.card-body {
 	padding: 0 1.5rem 0 1.5rem;
 	background-color: var(--White);
 }
@@ -52,7 +54,7 @@ image {
 	color: var(--VeryDarkBlue);
 }
 
-.card-body p {
+.card-content p {
 	font-family: var(--fontSecundary);
 	font-size: 0.85rem;
 	color: var(--DarkGrayishBlue);
@@ -105,4 +107,12 @@ image {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 32em) {
+	.container {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
 }
