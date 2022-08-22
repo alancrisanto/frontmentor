@@ -25,7 +25,10 @@
 	<body>
 		<main class="container">
 			<section class="card">
-				<img class="card-img" src="./images/image-product-mobile.jpg" alt="perfum bottle" />
+				<picture>
+					<source media="(max-width: 640px)" srcset="./images/image-product-mobile.jpg" />
+					<img class="card-img" src="./images/image-product-desktop.jpg" alt="perfum bottle" />
+				</picture>
 				<div class="card-body">
 					<div class="card-content">
 						<h6 class="card-head">PERFUME</h6>
