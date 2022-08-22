@@ -61,3 +61,15 @@ img {
 	font-size: 0.96rem;
 	margin-bottom: 0.8rem;
 }
+
+@media screen and (min-width: 32.5em) {
+	body {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	.card {
+		max-width: 320px;
+	}
+}
