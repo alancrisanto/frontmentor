@@ -59,7 +59,7 @@ img {
 	font-weight: 500;
 	padding: 0.9rem 1rem;
 	font-size: 0.96rem;
-	margin-bottom: 0.8rem;
+	margin-bottom: 0.6rem;
 }
 
 @media screen and (min-width: 32.5em) {
@@ -68,6 +68,10 @@ img {
 		display: flex;
 		justify-content: center;
 		align-content: center;
+	}
+
+	.container {
+		align-self: center;
 	}
 	.card {
 		max-width: 320px;
