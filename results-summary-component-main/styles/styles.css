@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+:root {
+  /* ###$ Primary */
+  --light-red: 0, 100%, 67%;
+  --Orangey-yellow: 39, 100%, 56%;
+  --Green-teal: 166, 100%, 37%;
+  --Cobalt-blue: 234, 85%, 45%;
+
+  /* #### Gradients */
+
+  /* --Background */
+
+  --light-slate: 252, 100%, 67%;
+  --light-royal: 241, 81%, 54%;
+
+  /* --circle */
+  --violet-blue: 256, 72%, 46%, 1;
+  --persian-blue: 241, 72%, 46%, 0;
+
+  /* ### Neutral */
+
+  --white: 0, 0%, 100%;
+  --pale-blue: 21, 100%, 96%;
+  --light-lavender: 241, 100%, 89%;
+  --dark-gray-blue: 224, 30%, 27%;
+
+  /* Font Weights */
+  --fs-500: 500;
+  --fs-700: 700;
+  --fs-800: 800;
+}
+
+/* Movil first */
+.results {
+  display: flex;
+  flex-direction: column;
+  background: hsla(var(--light-royal), 1);
+  background: linear-gradient(0deg, hsla(var(--light-royal), 1), hsla(var(--light-slate), 1));
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  color: hsla(var(--white), 0.7);
+  padding: 1.43rem 0;
+}
+
+.results h1 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.circle {
+  margin: 0 auto;
+  border-radius: 50%;
+  background: linear-gradient(0deg, hsla(var(--light-slate), 1), hsla(var(--light-royal), 1));
+  aspect-ratio: 2;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+.circle p:first-child {
+  color: var(--white);
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 600px) {
+}
