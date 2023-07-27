@@ -10,6 +10,10 @@ svg {
   max-width: 100%;
 }
 
+li{
+  list-style: none;
+}
+
 :root {
   /* ###$ Primary */
   --light-red: 0, 100%, 67%;
@@ -45,9 +49,9 @@ svg {
 .results {
   display: flex;
   flex-direction: column;
-  background: hsla(var(--light-royal), 1);
-  background: linear-gradient(0deg, hsla(var(--light-royal), 1), hsla(var(--light-slate), 1));
-  border-radius: 0 0 40px 40px;
+  background: hsl(var(--light-royal));
+  background: linear-gradient(0deg, hsl(var(--light-royal)), hsl(var(--light-slate)));
+  border-radius: 0 0 35px 35px;
   text-align: center;
   color: hsla(var(--white), 0.7);
   padding: 1.43rem 0 2.5rem;
@@ -63,13 +67,13 @@ svg {
   border-radius: 50%;
   background: rgb(120,87,255);
   background: linear-gradient(0deg, hsla(var(--persian-blue), 0), hsla(var(--violet-blue), 1));
-  aspect-ratio: 2;
+  aspect-ratio: 2/2;
   padding: 1.45rem 0;
-  margin-top: 1.55rem;
+  margin-top: 1.5rem;
 }
 
-.circle p:first-child {
-  color: var(--white);
+.circle p:first-child{
+  color: hsl(var(--white));
   font-size: 3.5rem;
   font-weight: 800;
   padding: 0;
@@ -77,13 +81,91 @@ svg {
 }
 
 .results h2 {
-  margin: 1.4rem 0 0.5rem 0;
+  color: hsl(var(--white));
+  margin: 1.3rem 0 0.5rem 0;
   font-size: 1.5rem;
 }
 
 .results p {
   padding: 0 3rem;
 }
+
+/* -- Summary Section */
+
+.summary{
+  padding: 0 2.125rem;
+}
+
+.summary-title{
+  margin-top: 1.5rem;
+  color: hsl(var(--dark-gray-blue));
+  font-size: 1.125rem;
+}
+
+.summary ul{
+  margin-top: 1.5rem;
+}
+
+.summary ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0 0 1.155rem 0;
+}
+
+.summary ul li:nth-child(1){
+  background-color: hsla(var(--light-red), 0.06);
+}
+
+.summary ul li:nth-child(2){
+  background-color: hsla(var(--Orangey-yellow), 0.08);
+}
+
+.summary ul li:nth-child(3){
+  background-color: hsla(var(--Green-teal), 0.06);
+}
+
+.summary ul li:nth-child(4){
+  background-color: hsla(var(--light-lavender), 0.2);
+}
+
+.summary-icon {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.reaction .summary-icon p{
+  color: hsl(var(--light-red));
+  font-weight: 500;
+}
+
+.memory .summary-icon p{
+  color: hsl(var(--Orangey-yellow));
+  font-weight: 500;
+}
+
+.verbal .summary-icon p{
+  color: hsl(var(--Green-teal));
+  font-weight: 500;
+}
+
+.visual .summary-icon p{
+  color: hsl(var(--Cobalt-blue));
+  font-weight: 500;
+}
+
+.summary-scored p {
+  color: hsl(var(--dark-gray-blue));
+  font-weight: 800;
+}
+
+.summary-scored p span {
+  color: hsla(var(--dark-gray-blue), 0.5);
+}
+
+
+
 
 @media screen and (min-width: 600px) {
 }
