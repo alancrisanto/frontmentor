@@ -63,14 +63,16 @@ svg {
   border-radius: 50%;
   background: linear-gradient(0deg, hsla(var(--light-slate), 1), hsla(var(--light-royal), 1));
   aspect-ratio: 2;
-  padding: 2rem;
-  margin-top: 1.5rem;
+  padding: 1.45rem 2.45rem;
+  margin-top: 1.55rem;
 }
 
 .circle p:first-child {
   color: var(--white);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 800;
+  padding: 0;
+  margin: 0 0 -1px 0;
 }
 
 @media screen and (min-width: 600px) {
