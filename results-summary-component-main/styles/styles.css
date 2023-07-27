@@ -25,8 +25,8 @@ svg {
   --light-royal: 241, 81%, 54%;
 
   /* --circle */
-  --violet-blue: 256, 72%, 46%, 1;
-  --persian-blue: 241, 72%, 46%, 0;
+  --violet-blue: 256, 72%, 46%;
+  --persian-blue: 241, 72%, 46%;
 
   /* ### Neutral */
 
@@ -47,10 +47,10 @@ svg {
   flex-direction: column;
   background: hsla(var(--light-royal), 1);
   background: linear-gradient(0deg, hsla(var(--light-royal), 1), hsla(var(--light-slate), 1));
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 40px 40px;
   text-align: center;
   color: hsla(var(--white), 0.7);
-  padding: 1.43rem 0;
+  padding: 1.43rem 0 2.5rem;
 }
 
 .results h1 {
@@ -61,9 +61,10 @@ svg {
 .circle {
   margin: 0 auto;
   border-radius: 50%;
-  background: linear-gradient(0deg, hsla(var(--light-slate), 1), hsla(var(--light-royal), 1));
+  background: rgb(120,87,255);
+  background: linear-gradient(0deg, hsla(var(--persian-blue), 0), hsla(var(--violet-blue), 1));
   aspect-ratio: 2;
-  padding: 1.45rem 2.45rem;
+  padding: 1.45rem 0;
   margin-top: 1.55rem;
 }
 
@@ -73,6 +74,15 @@ svg {
   font-weight: 800;
   padding: 0;
   margin: 0 0 -1px 0;
+}
+
+.results h2 {
+  margin: 1.4rem 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.results p {
+  padding: 0 3rem;
 }
 
 @media screen and (min-width: 600px) {
