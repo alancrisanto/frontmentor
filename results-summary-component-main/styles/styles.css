@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 img,
@@ -38,7 +38,6 @@ li {
   --pale-blue: 21, 100%, 96%;
   --light-lavender: 241, 100%, 89%;
   --dark-gray-blue: 224, 30%, 27%;
-
 }
 
 /* Movil first */
@@ -185,9 +184,7 @@ footer a {
   color: hsl(var(--Orangey-yellow));
 }
 
-
 @media screen and (min-width: 600px) {
-
   body {
     height: 100vh;
     display: grid;
@@ -198,7 +195,7 @@ footer a {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 610px;
+    max-width: 736px;
     justify-content: center;
     align-content: center;
     margin: 0 auto 2rem auto;
@@ -212,12 +209,40 @@ footer a {
   }
 
   .results h1 {
-    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
   }
 
   .circle {
     margin-top: 2rem;
-    padding: 0.8rem;
   }
 
+  .circle p:first-child {
+    font-size: 4.5rem;
+    margin: 2.5rem 0 -1px 0;
+  }
+
+  .results h2 {
+    margin: 2rem 0 0.5rem 0;
+    font-size: 1.85rem;
+    letter-spacing: 0.15rem;
+  }
+
+  .results p {
+    padding: 0.5rem 3rem 2.5rem;
+    font-size: 1.125rem;
+  }
+
+  .summary-title{
+    font-size: 1.5rem;
+    margin-top: 2.35rem;
+  }
+
+  button{
+    margin: 1.65rem auto;
+  }
+
+  .summary ul{
+    margin-top: 1.75rem;
+  }
 }
