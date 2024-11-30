@@ -45,7 +45,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### Screenshot
 
-![Result](./design/result.png)
+![Result](./design/result.jpg)
 
 ### Links
 
