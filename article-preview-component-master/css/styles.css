@@ -144,6 +144,15 @@ a {
             margin: unset;
             letter-spacing: 3px;
           }
+
+          a:hover {
+            cursor: pointer;
+          }
+
+          a:hover svg path {
+            filter: invert(0.85);
+
+          }
         }
 
         .share-popover.active {
@@ -186,6 +195,14 @@ a {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     max-width: 730px;
+    overflow: unset;
+
+    .image {
+      border-top-left-radius: 0.5rem;
+      border-top-left-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+      overflow: hidden;
+    }
 
     .image img {
       object-fit: cover;
@@ -200,6 +217,43 @@ a {
       p {
         margin: 0 0 0.5rem 0;
       }
+    }
+  }
+}
+
+@media screen and (width >=1024px) {
+
+  .card {
+    .content {
+      .profile::after {
+        width: 50%;
+        transform: translate(280px, -80px);
+      }
+
+      .profile.active::after {
+        height: 50px;
+        width: 50%;
+        border-radius: 0.5rem;
+      }
+
+      .profile::before {
+        position: absolute;
+        content: "";
+        transform: translate(360px, -55px) rotate(45deg);
+        width: 5%;
+        height: 0;
+        background-color: var(--dark-grayish-blue);
+      }
+
+      .profile.active::before {
+        height: 50px;
+      }
+
+      .share-popover {
+        transform: translate(305px, -68px);
+        padding: unset !important;
+      }
+
     }
   }
 }
