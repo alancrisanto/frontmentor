@@ -27,7 +27,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Project Code](https://github.com/alancrisanto/frontmentor/tree/master/order-summary-component-main)
-- Live Site URL: [Project Live Site](https://alancrisanto.github.io/frontmentor/order-summary-component-main/index.html)
+- Live Site URL: [Project Live Site](https://alancrisanto.github.io/frontmentor/order-summary-component-main/)
 
 ## My process
 
@@ -44,6 +44,6 @@ I'm continuing on my pathway to improve my design skills and performance buildin
 
 ## Author
 
-- Website - [My Portfolio](https://alancrisanto.github.io/Portfolio/)
+- Website - [My Portfolio](https://acrisvall.vercel.app/)
 - LinkedIn - [LinkedIn Profile](https://www.linkedin.com/in/alancrisanto/)
 - Frontend Mentor - [Frontendmentor Profile](https://www.frontendmentor.io/profile/alancrisanto)
